@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha src/test/server.js",
+    "test": "mocha src/test/mochaRunner.js",
     "webpackdev": "better-npm-run webpack:dev",
     "webpackprod": "better-npm-run webpack:prod"
   },
@@ -45,6 +45,7 @@
     "karma-phantomjs-launcher": "^1.0.4",
     "koa": "^2.0.0-alpha.8",
     "mocha": "^4.0.1",
+    "mochawesome": "^3.0.1",
     "optimize-css-assets-webpack-plugin": "^3.2.0",
     "path": "^0.12.7",
     "phantomjs": "^2.1.7+deprecated",
