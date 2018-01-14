@@ -6,7 +6,7 @@ var mocha = new Mocha({
     }
   });
   mocha.addFile(
-    './server.js'
+    './src/test/server.js'
 );
 mocha.run(function() {
     console.log('All done');
